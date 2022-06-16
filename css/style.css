@@ -2535,6 +2535,14 @@ body {
 .isi-berita{
   text-align: justify;
 }
+.carddd{
+  border-radius: 20px;
+  
+}
+/* .carddd:hover{
+box-shadow: 12px 12px 2px 1px black;
+opacity: 1;
+} */
 /* add readmore */
 #more {display: none;}
 /*----------------------------------------
