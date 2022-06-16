@@ -2030,10 +2030,10 @@ div#preloader {
 .page2-btn{
   border: 1px solid rgb(255, 255, 255);
   border-radius: 30px;
-  color: rgb(255, 255, 255);
+  background-color: Transparent;
   cursor: pointer;
   display: inline-block;
-  font-size: 17px;
+  font-size: 12px;
   font-weight: 600;
   margin-top: 30px;
   padding: 12px 40px;
@@ -2041,6 +2041,13 @@ div#preloader {
   text-transform: uppercase;
   transition: all 0.4s ease 0s;
   z-index: 222;
+}
+
+.page2-btn:hover {
+  color: #fff;
+  background: #3EC1D5;
+  border: 1px solid #3EC1D5;
+  text-decoration: none;
 }
 
 .ready-btn:hover {
